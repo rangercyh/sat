@@ -80,3 +80,8 @@ function sat(a, b)
 
 	return true
 end
+
+a = polygon{v(0,0),v(0,5),v(5,4),v(3,0)}
+b = polygon{v(4,4),v(4,6),v(6,6),v(6,4)}
+ 
+print(sat(a,b)) -- true
